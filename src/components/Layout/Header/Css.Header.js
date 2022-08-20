@@ -79,9 +79,9 @@ const DIVHeader = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
-        margin-top: -25px;
+        width: 35px;
+        height: 35px;
+        margin-top: -15px;
         margin-right: -50px;
         border-radius: 30px;
         background: rgba(255, 255, 255, 0.322);
@@ -135,7 +135,9 @@ const DIVHeader = styled.div`
         font-weight: 700;
         color: #fff;
         letter-spacing: 0.08rem;
-        text-shadow: -0px 2px 3px rgba(31, 0, 0, 0.637)
+        text-shadow: -0px 2px 3px rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(5.8px);
+        -webkit-backdrop-filter: blur(5.8px);
 
     }
 
