@@ -79,11 +79,13 @@ const DIVHeader = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 45px;
-        height: 45px;
-        margin-right: -20px;
+        width: 40px;
+        height: 40px;
+        margin-top: -25px;
+        margin-right: -50px;
         border-radius: 30px;
-        background: rgba(31, 0, 0, 0.322);
+        background: rgba(255, 255, 255, 0.322);
+        box-shadow: 0px 0px 8px 4px rgba(22, 22, 22, 0.651)
     }
     .blocos_header:nth-child(3) .icon_menu{
 
@@ -104,7 +106,7 @@ const DIVHeader = styled.div`
     }
     .blocos_header:nth-child(4) p{
         width: 60%;
-        margin-top: 90px;
+        margin-top: 50px;
         margin-left: 5%;
         /* background: paleturquoise; */
         font-size: 2.6rem;
@@ -117,7 +119,25 @@ const DIVHeader = styled.div`
 
 
 
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        margin-top: -10px;
+        margin-left: 20px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background: #ffffff34;
 
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.08rem;
+        text-shadow: -0px 2px 3px rgba(31, 0, 0, 0.637)
+
+    }
 
 
 

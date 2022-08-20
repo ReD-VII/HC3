@@ -35,7 +35,7 @@ export default function Header(){
             {/* Menu */}
             <div className="blocos_header">
                 <div>
-                    <BiMenuAltRight size={30} color={"white"} className="icon_menu"/>
+                    <BiMenuAltRight size={25} color={"white"} className="icon_menu"/>
                 </div>
             </div>
 
@@ -47,6 +47,7 @@ export default function Header(){
                 <p>
                     O Melhor do serrado brasileiro!
                 </p>
+                <div className="btn">Contato</div>
 
             </div>
             
