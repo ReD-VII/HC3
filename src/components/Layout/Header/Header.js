@@ -1,17 +1,6 @@
-// Components
-import React from "react"
+import BoxHeader from "./indexCss"
+import background from './img/bg2.png'
 import { BiMenuAltRight } from "react-icons/bi";
-
-
-
-
-// CSS
-import DIVHeader from "./Css.Header"
-
-
-// IMG
-import imgBackground from './img/background.png'
-import logo from './img/logo.png'
 
 
 
@@ -20,37 +9,38 @@ import logo from './img/logo.png'
 
 export default function Header(){
     return(
-        <DIVHeader imgUrl={imgBackground}>
-            
-            {/* Logo */}
-            <div className="blocos_header">
-                <img src={logo} alt="Charme do serrado" />
-            </div>
-
-
-
-            <div className="blocos_header"></div>
-
-
-            {/* Menu */}
-            <div className="blocos_header">
-                <div>
-                    <BiMenuAltRight size={25} color={"white"} className="icon_menu"/>
+        <BoxHeader imgUrl={background}>
+        
+            <div className="box_one_content">
+                <div className="box_one_content_mini">
+                
+                </div>
+                <div className="box_one_content_mini"   >
+                    <div><BiMenuAltRight size={28} color={"white"}/></div>
                 </div>
             </div>
 
+            <div className="box_two_content">
 
 
-            {/* Conteudo Inferior */}
-            <div className="blocos_header">
 
-                <p>
-                    O Melhor do serrado brasileiro!
-                </p>
-                <div className="btn">Contato</div>
+                <p>Cachoeiras 🌵 ☀️ 30°c</p>
+                <p style={{
+                    fontSize: "2.3rem",
+                    textTransform: "uppercase",
+                    fontWeight: "600"
+                }}>Pirenópolis</p>
+                <p style={{
+                    marginTop: '-7px',
+                    fontSize: "0.8rem",
+                    fontWeight: "500",                   
+                }}>Venha conhecer o charme do serrado!</p>
 
+                <div><p>vamos!</p></div>
             </div>
-            
-        </DIVHeader>
-    ) 
+
+
+
+        </BoxHeader>
+    )
 }
