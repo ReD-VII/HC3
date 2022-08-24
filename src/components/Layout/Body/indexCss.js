@@ -60,15 +60,15 @@ const BoxContent = styled.div`
     }
     .box02 div:nth-child(1){
         /* background: steelblue; */
-        background: ${({botao}) => botao == "button1" ? "red" : "blue"} ;
+        background: ${({botao}) => botao === "button1" ? "red" : "blue"} ;
     }
     .box02 div:nth-child(2){
         /* background: steelblue; */
-        background: ${({botao}) => botao == "button2" ? "red" : "blue"} ;
+        background: ${({botao}) => botao === "button2" ? "red" : "blue"} ;
     }
     .box02 div:nth-child(3){
         /* background: steelblue; */
-        background: ${({botao}) => botao == "button3" ? "red" : "blue"} ;
+        background: ${({botao}) => botao === "button3" ? "red" : "blue"} ;
     }
     .box02 div img{
 

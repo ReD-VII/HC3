@@ -1,5 +1,5 @@
 import { BsFillTagsFill } from "react-icons/bs";
-import React, {useState, useRef, useEffect}from "react";
+import React, {useState, useEffect}from "react";
 
 
 
@@ -39,21 +39,6 @@ export default function Body(){
 
 
 
-        // if(e.currentTarget.getAttribute('name') == 'button1'){
-        //     refButton1.current.style.backgroundColor = '#c3c3c3'
-        //     refButton2.current.style.backgroundColor = '#fff'
-        //     refButton3.current.style.backgroundColor = '#fff'
-        // }
-        // if(e.currentTarget.getAttribute('name') == 'button2'){
-        //     refButton1.current.style.backgroundColor = '#fff'
-        //     refButton2.current.style.backgroundColor = '#c3c3c3'
-        //     refButton3.current.style.backgroundColor = '#fff'
-        // }
-        // if(e.currentTarget.getAttribute('name') == 'button3'){
-        //     refButton1.current.style.backgroundColor = '#fff'
-        //     refButton2.current.style.backgroundColor = '#fff'
-        //     refButton3.current.style.backgroundColor = '#c3c3c3'
-        // }
         
         // console.log(  e.currentTarget.getAttribute('name')  )
         // setBtnAtive(e.currentTarget.getAttribute('name'))
